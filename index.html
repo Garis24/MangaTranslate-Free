@@ -1,0 +1,209 @@
+<!doctype html>
+<html lang="fr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#111522">
+    <meta name="description" content="Traduisez les bulles de vos mangas, comics et images avec MangaTranslate Free. OCR local, sélection d’images et rendu dans les bulles.">
+    <title>MangaTranslate Free — Les images parlent votre langue</title>
+    <link rel="icon" type="image/svg+xml" href="./assets/icon.svg">
+    <link rel="stylesheet" href="./styles.css">
+    <script type="module" src="./script.js"></script>
+  </head>
+  <body>
+    <a class="skip-link" href="#main">Aller au contenu</a>
+    <header class="site-header">
+      <a class="brand" href="#top" aria-label="MangaTranslate Free, accueil">
+        <img src="./assets/icon.svg" alt="" width="38" height="38">
+        <span>Manga<span class="brand-accent">Translate Free</span></span>
+      </a>
+      <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="main-nav">Menu</button>
+      <nav id="main-nav" class="main-nav" aria-label="Navigation principale">
+        <a href="#features">Fonctionnalités</a>
+        <a href="#how">Comment ça marche</a>
+        <a href="#pricing">Offres</a>
+        <a href="#faq">FAQ</a>
+        <a class="nav-cta" href="#pricing">Découvrir Plus <span aria-hidden="true">↗</span></a>
+      </nav>
+    </header>
+
+    <main id="main">
+      <section id="top" class="hero">
+        <div class="hero-copy">
+          <p class="eyebrow"><span class="live-dot"></span> L’extension Chrome pour vos lectures illustrées</p>
+          <h1>Les images<br>parlent <span class="gradient-text">votre langue.</span></h1>
+          <p class="hero-lede">Traduisez les bulles de mangas, comics et images directement dans votre navigateur. Choisissez une page, laissez l’OCR repérer le texte, puis retrouvez la traduction dans l’image.</p>
+          <div class="hero-actions">
+            <a class="button button-primary store-cta" data-store-cta href="#install">Ajouter à Chrome <span aria-hidden="true">↗</span></a>
+            <a class="button button-quiet" href="#how">Voir comment ça marche <span aria-hidden="true">↓</span></a>
+          </div>
+          <p class="store-note" data-store-note role="status">Publication sur le Chrome Web Store à venir.</p>
+          <div class="hero-proof">
+            <span><i class="check">✓</i> OCR local disponible</span>
+            <span><i class="check">✓</i> Formule gratuite</span>
+            <span><i class="check">✓</i> Manifest V3</span>
+          </div>
+        </div>
+        <div class="hero-art" aria-label="Aperçu illustratif d’une bulle avant et après traduction">
+          <div class="art-glow"></div>
+          <div class="art-label art-label-before">ORIGINAL <span>JP</span></div>
+          <div class="comic-panel panel-before">
+            <div class="panel-sun"></div><div class="panel-hill hill-one"></div><div class="panel-hill hill-two"></div>
+            <div class="speech-bubble bubble-before"><span>ここから<br>始めよう！</span></div>
+            <div class="panel-caption">新しい冒険</div>
+          </div>
+          <div class="translation-arrow" aria-hidden="true">→</div>
+          <div class="art-label art-label-after">TRADUCTION <span>FR</span></div>
+          <div class="comic-panel panel-after">
+            <div class="panel-sun"></div><div class="panel-hill hill-one"></div><div class="panel-hill hill-two"></div>
+            <div class="speech-bubble bubble-after"><span>Commençons<br>ici !</span></div>
+            <div class="panel-caption">Une nouvelle aventure</div>
+          </div>
+          <div class="art-sticker"><span class="sticker-spark">✳</span> OCR + traduction<br><strong>en quelques clics</strong></div>
+        </div>
+        <div class="hero-bottom"><span>POUR LES HISTOIRES SANS FRONTIÈRES</span><span class="hero-line"></span><span>JAPONAIS · ANGLAIS · CORÉEN · ET PLUS</span></div>
+      </section>
+
+      <section class="feature-strip" aria-label="Points forts">
+        <div><span class="strip-icon">文</span><span><strong>Du texte à l’image</strong><small>La traduction se replace dans sa bulle.</small></span></div>
+        <div><span class="strip-icon">◉</span><span><strong>Local ou en ligne</strong><small>Tesseract embarqué, fournisseurs au choix.</small></span></div>
+        <div><span class="strip-icon">▧</span><span><strong>À votre rythme</strong><small>Une zone, une page ou plusieurs images.</small></span></div>
+      </section>
+
+      <section id="features" class="section features-section">
+        <div class="section-heading">
+          <p class="eyebrow">FAIT POUR LIRE, PAS POUR CONFIGURER</p>
+          <h2>De la page à la traduction,<br><span class="muted-heading">sans perdre le fil.</span></h2>
+          <p>Les outils essentiels pour comprendre une image et continuer votre lecture.</p>
+        </div>
+        <div class="feature-grid">
+          <article class="feature-card feature-card-large">
+            <div class="feature-visual image-stack" aria-hidden="true"><div class="stack-page page-back">文</div><div class="stack-page page-front"><span>OH ?</span><i>✦</i></div><div class="stack-chip">+ 6 images</div></div>
+            <div class="feature-card-copy"><span class="feature-number">01 / SÉLECTION</span><h3>Trouvez les images sur la page</h3><p>Scannez les images chargées dans l’onglet, choisissez plusieurs pages ou lancez la traduction d’une image au passage de la souris.</p></div>
+          </article>
+          <article class="feature-card">
+            <div class="feature-visual crop-visual" aria-hidden="true"><div class="crop-box"><span>選んで</span><b>+</b></div><span class="crop-corner c1"></span><span class="crop-corner c2"></span><span class="crop-corner c3"></span><span class="crop-corner c4"></span></div>
+            <div class="feature-card-copy"><span class="feature-number">02 / CONTRÔLE</span><h3>Choisissez votre zone</h3><p>Capturez l’onglet entier ou dessinez un cadre autour du passage à traduire.</p></div>
+          </article>
+          <article class="feature-card">
+            <div class="feature-visual ocr-visual" aria-hidden="true"><div class="ocr-lines"><i></i><i></i><i></i></div><span class="ocr-scan"></span><span class="ocr-tag">TEXTE REPÉRÉ</span></div>
+            <div class="feature-card-copy"><span class="feature-number">03 / RECONNAISSANCE</span><h3>Un OCR adapté à votre usage</h3><p>Tesseract.js tourne localement. OCR.space peut aider en ligne, avec un repli vers le moteur local si nécessaire.</p></div>
+          </article>
+          <article class="feature-card feature-card-large">
+            <div class="feature-visual render-visual" aria-hidden="true"><div class="render-bubble">You can<br>do it!</div><span class="render-spark">✳</span><div class="render-stamp">PNG <b>↓</b></div></div>
+            <div class="feature-card-copy"><span class="feature-number">04 / RENDU</span><h3>Lisez, puis gardez le résultat</h3><p>Le texte traduit est rendu dans les zones reconnues. Téléchargez l’image finale pour la retrouver plus tard.</p></div>
+          </article>
+        </div>
+      </section>
+
+      <section id="how" class="how-section">
+        <div class="section how-inner">
+          <div class="section-heading">
+            <p class="eyebrow">TROIS ÉTAPES, ET C’EST PARTI</p>
+            <h2>Votre lecture<br><span class="muted-heading">reprend là où elle doit.</span></h2>
+            <p>Pas besoin d’exporter vos pages dans un autre outil pour commencer.</p>
+          </div>
+          <ol class="steps">
+            <li><span class="step-index">01</span><div><h3>Ouvrez l’extension</h3><p>Depuis la barre d’outils Chrome, lancez le scan des images, une capture ou la sélection d’une zone.</p></div><span class="step-symbol">⌘</span></li>
+            <li><span class="step-index">02</span><div><h3>Choisissez les pages</h3><p>Sélectionnez une ou plusieurs images. Les tâches continuent même si vous fermez le popup.</p></div><span class="step-symbol">▧</span></li>
+            <li><span class="step-index">03</span><div><h3>Lisez et téléchargez</h3><p>L’extension reconnaît le texte, le traduit puis prépare une image avec le texte remplacé.</p></div><span class="step-symbol">↓</span></li>
+          </ol>
+        </div>
+      </section>
+
+      <section id="pricing" class="section pricing-section">
+        <div class="section-heading center-heading">
+          <p class="eyebrow">COMMENCEZ GRATUITEMENT</p>
+          <h2>À chacun sa façon<br>de <span class="gradient-text">lire le monde.</span></h2>
+          <p>La formule gratuite pour découvrir. Plus pour choisir vos moteurs et vos clés.</p>
+        </div>
+        <div class="plans">
+          <article class="plan-card">
+            <div class="plan-top"><span class="plan-name">Gratuit</span><span class="plan-badge">POUR DÉCOUVRIR</span></div>
+            <p class="plan-price">0 € <span>/ toujours</span></p>
+            <p class="plan-description">Les essentiels pour traduire des images sans abonnement.</p>
+            <a class="button button-outline" href="#install">Commencer gratuitement</a>
+            <ul class="plan-list">
+              <li><span>✓</span> OCR Tesseract local illimité</li>
+              <li><span>✓</span> Google GTX illimité (non officiel)</li>
+              <li><span>✓</span> OCR.space en découverte</li>
+              <li><span>✓</span> Repli local si OCR.space atteint sa limite</li>
+              <li class="not-included"><span>—</span> Clés OCR.space et DeepL personnelles</li>
+              <li class="not-included"><span>—</span> MyMemory</li>
+            </ul>
+            <p class="plan-footnote">Le service OCR.space de découverte utilise un quota partagé soumis aux limites du fournisseur.</p>
+          </article>
+          <article class="plan-card plan-plus">
+            <div class="popular-badge">LE PLUS CHOISI</div>
+            <div class="plan-top"><span class="plan-name">Plus</span><span class="plan-badge">POUR ALLER PLUS LOIN</span></div>
+            <p class="plan-price">4 € <span>/ mois</span></p>
+            <p class="plan-description">Vos clés API, vos moteurs préférés et davantage de contrôle.</p>
+            <a class="button button-primary plus-cta" data-plus-cta href="#install">Passer à Plus <span aria-hidden="true">↗</span></a>
+            <ul class="plan-list">
+              <li><span>✓</span> Tesseract local illimité</li>
+              <li><span>✓</span> Votre clé OCR.space (offre fournisseur jusqu’à 25 000 images/mois*)</li>
+              <li><span>✓</span> DeepL API Free ou Pro avec votre clé</li>
+              <li><span>✓</span> MyMemory anonyme ou avec e-mail</li>
+              <li><span>✓</span> Google GTX en repli automatique</li>
+              <li><span>✓</span> Même sélection d’images et rendu Canvas</li>
+            </ul>
+            <p class="plan-footnote">* Quota, disponibilité et conditions définis par les fournisseurs. DeepL Pro ou d’autres services payants peuvent occasionner des frais séparés.</p>
+          </article>
+          <article class="plan-card plan-pro">
+            <div class="plan-top"><span class="plan-name">Pro</span><span class="plan-badge badge-coming">À VENIR</span></div>
+            <p class="plan-price">Bientôt</p>
+            <p class="plan-description">Une formule supérieure est à l’étude pour les lecteurs qui en demandent plus.</p>
+            <a class="button button-outline" href="#pro-note">Découvrir le projet</a>
+            <ul class="plan-list">
+              <li><span>✦</span> Formule en préparation</li>
+              <li><span>✦</span> Publicité discrète envisagée</li>
+              <li><span>✦</span> Fonctionnalités et tarif à confirmer</li>
+            </ul>
+            <p id="pro-note" class="plan-footnote">Pro n’est pas disponible à l’achat. Aucun avantage ou tarif n’est promis à ce stade.</p>
+          </article>
+        </div>
+        <p class="pricing-disclaimer">Les 4 €/mois couvrent l’accès à l’offre Plus de l’extension. Les quotas, prix, conditions et données des API tierces relèvent de chaque fournisseur. MyMemory affiche des compteurs locaux indicatifs ; ce ne sont pas des quotas garantis par son service.</p>
+      </section>
+
+      <section class="privacy-section">
+        <div class="section privacy-inner">
+          <div><p class="eyebrow">TRANSPARENCE, AVANT TOUT</p><h2>Vos images et vos clés,<br><span class="muted-heading">en connaissance de cause.</span></h2></div>
+          <div class="privacy-copy"><p>Tesseract.js et ses modèles sont embarqués dans l’extension pour fonctionner localement. Si vous choisissez un moteur en ligne, l’image ou le texte OCR concerné est transmis au fournisseur pour traitement.</p><p>Les clés que vous saisissez sont stockées dans le stockage local de Chrome. Consultez les politiques de confidentialité des fournisseurs avant d’utiliser leurs services.</p><a href="#faq">Lire les réponses sur les données <span aria-hidden="true">→</span></a></div>
+        </div>
+      </section>
+
+      <section id="faq" class="section faq-section">
+        <div class="section-heading">
+          <p class="eyebrow">QUESTIONS FRÉQUENTES</p>
+          <h2>Avant de tourner<br><span class="muted-heading">la page.</span></h2>
+        </div>
+        <div class="faq-list">
+          <details><summary>Comment fonctionne la formule gratuite ?</summary><p>Tesseract.js reconnaît le texte localement sans limite imposée par l’extension, et Google GTX assure la traduction. OCR.space est essayé en découverte ; si le service renvoie une erreur ou atteint sa limite partagée, l’extension bascule vers Tesseract.</p></details>
+          <details><summary>Que débloque Plus à 4 €/mois ?</summary><p>Plus débloque la saisie de votre clé personnelle OCR.space, DeepL API (avec votre propre clé) et MyMemory en mode anonyme ou avec e-mail. Google GTX reste disponible en repli. La clé OCR.space et les quotas des fournisseurs suivent leurs conditions respectives.</p></details>
+          <details><summary>Le forfait Plus comprend-il les frais des API ?</summary><p>Non. Il ne couvre aucun achat ou frais facturé directement par un fournisseur. OCR.space propose un compte API gratuit selon ses conditions ; DeepL Free dépend de son offre. DeepL Pro et tout autre service payant peuvent ajouter des frais séparés.</p></details>
+          <details><summary>Quelles sont les limites MyMemory ?</summary><p>L’extension applique un compteur local de 1 000 caractères par jour en mode anonyme et 10 000 avec e-mail. L’adresse est transmise à MyMemory lorsque vous choisissez ce mode. Ces seuils ne garantissent pas la limite réellement accordée par MyMemory.</p></details>
+          <details><summary>Est-ce que toutes mes images restent sur mon appareil ?</summary><p>Non, pas si vous utilisez un moteur en ligne. OCR.space reçoit l’image envoyée à l’OCR ; les services de traduction reçoivent le texte détecté. Le mode Tesseract effectue la reconnaissance OCR localement, mais la traduction dépend du service choisi.</p></details>
+          <details><summary>Quand l’extension sera-t-elle disponible sur le Chrome Web Store ?</summary><p>Le lien officiel sera ajouté ici après la publication de la fiche. En attendant, vous pouvez suivre le projet et consulter les instructions d’installation locale dans le dépôt.</p></details>
+        </div>
+      </section>
+
+      <section id="install" class="install-section">
+        <div class="install-card">
+          <div class="install-spark" aria-hidden="true">✳</div>
+          <p class="eyebrow">UNE HISTOIRE VOUS ATTEND</p>
+          <h2>Votre prochaine lecture<br>n’a pas de barrière de langue.</h2>
+          <p>Installez MangaTranslate Free depuis le Chrome Web Store dès sa publication.</p>
+          <a class="button button-light store-cta" data-store-cta href="#install">Ajouter à Chrome <span aria-hidden="true">↗</span></a>
+          <p class="store-note install-note" data-store-note role="status">Publication sur le Chrome Web Store à venir.</p>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <a class="brand footer-brand" href="#top"><img src="./assets/icon.svg" alt="" width="30" height="30"><span>Manga<span class="brand-accent">Translate Free</span></span></a>
+      <p>Des images, des histoires, et une lecture plus libre.</p>
+      <div class="footer-links"><a href="#features">Fonctionnalités</a><a href="#pricing">Offres</a><a href="#faq">FAQ</a><a href="https://github.com/" target="_blank" rel="noopener noreferrer">Projet GitHub ↗</a></div>
+      <small>© <span id="year"></span> MangaTranslate Free. Chrome est une marque de Google LLC. Cette extension n’est ni affiliée à Google ni approuvée par les fournisseurs tiers mentionnés.</small>
+    </footer>
+  </body>
+</html>
